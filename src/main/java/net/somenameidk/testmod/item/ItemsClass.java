@@ -7,10 +7,9 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.somenameidk.testmod.TestMod;
 
-
 public class ItemsClass {
     public static Item BALL = registerItems("ball",
-            new Item(new FabricItemSettings().group(ItemGroup.COMBAT)));
+            new Item(new FabricItemSettings().group(ModItemGroup.TESTMOD)));
 
     private static Item registerItems(String name,Item item){
         return Registry.register(Registry.ITEM, new Identifier(TestMod.MOD_ID, name), item);

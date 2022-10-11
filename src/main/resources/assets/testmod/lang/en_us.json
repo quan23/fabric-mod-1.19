@@ -1,3 +1,5 @@
 {
-  "item.testmod.ball": "Ball"
+  "item.testmod.ball": "Ball",
+
+  "itemGroup.testmod.testmod": "Test Mod"
 }
